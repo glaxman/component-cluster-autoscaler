@@ -41,7 +41,7 @@ nameOverride: "cluster-autoscaler"
 # replicaCount -- Desired number of pods
 replicaCount: 1
 
- resources -- Pod resource requests and limits.
+# resources -- Pod resource requests and limits.
 resources:
   limits:
     cpu: 1
