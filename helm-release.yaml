@@ -6,7 +6,7 @@ metadata:
   annotations:
     meta.helm.sh/release-name: cluster-autoscaler-release
 spec:
-  interval: 10m0s
+  interval: 2m0s
   chart:
     spec:
       chart: cluster-autoscaler
